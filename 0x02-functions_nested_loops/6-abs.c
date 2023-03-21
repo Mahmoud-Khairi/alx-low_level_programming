@@ -5,14 +5,11 @@
  * Return: absolute value
  * @x: Ascii code 
  */
-int _abs(int x)
+int _abs(int i)
 {
-if (x >= 0)
+if (i < 0)
 {
-_putchar(x);
+return (-i);
 }
-else
-{
-_putchar(x * (-1));
-}
+return (i);
 }
