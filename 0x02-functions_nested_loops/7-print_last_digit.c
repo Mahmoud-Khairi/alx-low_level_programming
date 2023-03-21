@@ -11,7 +11,7 @@ int ld;
 ld = i % 10;
 if (ld < 0)
 {
-ld = -ld 
+ld = -ld;
 }
 _putchar(ld);
 return (ld);
