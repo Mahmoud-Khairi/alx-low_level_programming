@@ -9,6 +9,6 @@ void print_alphabet_x10(void);
     char ch[] = "abcdefghijklmnoprstuvwxyz";
     int i;
     for (i = '0' ; i <= '10'; i++)
-	    _putchar(i);
+	    _putchar(ch);
         _putchar('\n');
 }
