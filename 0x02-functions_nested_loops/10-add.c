@@ -6,7 +6,7 @@
  * @a: first number
  * @b: second number
  *
- * Ret: sum of a & b
+ * Return : sum of a & b 
 */
 
 int add(int a, int b)
