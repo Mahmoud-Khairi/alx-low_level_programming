@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point  
- * Description:  test test 
+ * main - Entry point
+ * Description:  test test
  * Return: sifron
  */
 void print_alphabet(void)
