@@ -1,16 +1,13 @@
 #include "main.h"
-
 /**
- * main - Entry
- * Description: prints the alphabet, in lowercase
- * Return: 
-*/
-
+ * main - Entry point  
+ * Description:  test test 
+ * Return: sifron
+ */
 void print_alphabet(void)
 {
-    char al;
-
-    for (al = 'a'; al <= 'z'; al++)
-    	_putchar(al);    
-	_putchar('\n');
+char i;
+for (i = 'a' ; i <= 'z'; i++)
+	_putchar(i);
+_putchar('\n');
 }
