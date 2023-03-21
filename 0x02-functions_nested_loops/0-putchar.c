@@ -1,10 +1,10 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - Entry point
- * Description: "Write a program that prints _putchar, followed by a new line"
- * Return: Always 0
- */
+ * main - Entry
+ * Description:  A program that prints _putchar
+ * Return: Always 0 (success)
+*/
 
 int main(void)
 {
@@ -12,8 +12,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i <= 7; i++)
-		 _putchar(str[i]);
+		_putchar(str[i]);
 	_putchar('\n');
-
 	return (0);
 }
