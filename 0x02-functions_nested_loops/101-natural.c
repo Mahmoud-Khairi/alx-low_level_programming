@@ -15,7 +15,7 @@ int main(void)
 		if ((n % 3 == 0) || (n % 5 == 0))
 			s += n;
 	}
-	_putchar(s);
+	_putchar("%d\n", s);
 
 	return (0);
 }
