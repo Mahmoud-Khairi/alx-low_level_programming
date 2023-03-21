@@ -3,7 +3,7 @@
  * _abs - entry point
  * Description: computes the absolute value of an integer.
  * Return: absolute value
- * @x: Ascii code
+ * @i: Ascii code
  */
 int _abs(int i)
 {
