@@ -3,6 +3,7 @@
  * print_sign - entry point
  * Description: prints the sign of a number.
  * Return: 0 or 1 or -1
+ * @n: taztouuz
  */
 int print_sign(int n)
 {
