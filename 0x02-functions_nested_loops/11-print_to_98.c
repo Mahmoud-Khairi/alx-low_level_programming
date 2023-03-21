@@ -1,19 +1,23 @@
-#include"main.h"
-
+#include "main.h"
+#include <stdio.h>
 /**
- * print_to_98 - print n to 98 counts
+ * print_to_98 - Entry point
+ * Description: count to 98
  * @n: number
-*/
-
+ * Return: a + b
+ */
 void print_to_98(int n)
 {
-	int cp;
-
-	if (n > 98)
-		for (cp = n; cp > 98; --cp)
-			printf("%d, ", cp);
-	else
-		for (count = n; cp < 98; ++cp)
-			printf("%d, ", cp);
-	printf("98\n");
+printf("%d", n);
+while (n > 98)
+{
+n--;
+printf(", %d", n);
+}
+while (n < 98)
+{
+n++;
+printf(", %d", n);
+}
+printf("\n");
 }
