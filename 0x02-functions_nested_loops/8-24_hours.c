@@ -7,8 +7,9 @@
  */
 void jack_bauer(void)
 {
+int z,y,x,i;
 char ch[] = z+y+':'+x+i;
-for (int i = 0 ; i < 10 ; i++)
+for ( i = 0 ; i < 10 ; i++)
 if ( i == 9)
 {
 i = 0;
