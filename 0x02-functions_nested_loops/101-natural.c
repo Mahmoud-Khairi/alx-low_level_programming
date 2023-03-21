@@ -1,21 +1,22 @@
-#include"main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- * Description: computes and prints the s of all the multiples
- * Return: 0
+ * main - Entry
+ * Description: a program prints the sum of the multiples
+ * Return: Always 0
 */
 
 int main(void)
 {
-	int s, n;
+	int sum, num;
 
-	for (n = 0; n < 1024; ++n)
+	for (num = 0; num < 1024; ++num)
 	{
-		if ((n % 3 == 0) || (n % 5 == 0))
-			s += n;
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
 	}
-	_putchar("%d\n", s);
+	printf("%d\n", sum);
 
 	return (0);
 }
