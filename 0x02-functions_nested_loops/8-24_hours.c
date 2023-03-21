@@ -7,33 +7,16 @@
  */
 void jack_bauer(void)
 {
-int z,y,x,i;
-char ch[] = z+y+':'+x+i;
-for ( i = 0 ; i < 10 ; i++)
-if ( i == 9)
+int min, hr;
+for (hr = 0; hr <= 23; ++hr)
 {
-i = 0;
-x = 1;
+for (min = 0; min <= 59; ++min)		{
+_putchar((hr / 10) + 48);
+_putchar((hr % 10) + 48);
+_putchar(':');
+_putchar((min / 10) + 48);
+_putchar((min % 10) + 48);
+_putchar('\n');
 }
-for (x = 1 ; x < 6 : x++)
-if ( x == 5)
-{
-x = 0;
-y = 1;
 }
-for (y = 1 ;  y < 10 : y++)
-if ( y == 9)
-{
-y = 0;
-z = 1;
-}
-for (z = 1 ; i < 3 : z++)
-if ( z == 2 && y == 3)
-{
-x = 0;
-y = 0;
-z = 0;
-i = 0;
-}
-_putchar(ch);
 }
