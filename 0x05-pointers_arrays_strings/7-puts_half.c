@@ -23,4 +23,4 @@ void puts_half(char *str)
 			printf("%c", str[n]);
 	}
 	printf("\n");
-sh: 1: qa: not found
+}
