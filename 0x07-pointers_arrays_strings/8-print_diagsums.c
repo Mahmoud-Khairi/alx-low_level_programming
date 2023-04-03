@@ -25,4 +25,4 @@ void print_diagsums(int *a, int size)
 			S2 += a[i];
 	}
 	printf("%d, %d\n", S1, S2);
-}}
+}
