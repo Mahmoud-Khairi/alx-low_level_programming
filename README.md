@@ -1,1 +1,1 @@
-0x07-pointers_arrays_strings
+0x0B. C - malloc, free
